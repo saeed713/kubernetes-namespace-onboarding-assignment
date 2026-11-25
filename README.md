@@ -67,6 +67,11 @@ Prioritized improvements:
 2. Add configurable ingress and egress exceptions for application dependencies.
 3. Add CI checks and policy/security validation.
 
+## References
+
+- [Kubernetes Documentation](https://kubernetes.io/docs/) — Kubernetes resources and configuration.
+- [Helm Documentation](https://helm.sh/docs/) — Helm charts, templates and releases.
+
 ## AI usage
 
 ChatGPT was used for technical guidance, troubleshooting, reviewing implementation choices, and helping write the documentation. I reviewed the suggestions, made the implementation changes, and tested the solution on a Kubernetes cluster.
