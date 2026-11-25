@@ -11,6 +11,10 @@ A small Helm-based solution for provisioning isolated, ready-to-use Kubernetes t
 
 **Important:** Default kind networking (kindnet) does not enforce NetworkPolicies. Install and configure a policy-capable CNI such as Calico before relying on namespace isolation. See the [Calico installation documentation](https://docs.tigera.io/calico/latest/getting-started/kubernetes/).
 
+## Local cluster
+
+Create a kind cluster with `kind create cluster --name namespace-onboarding`. Install Calico to enforce NetworkPolicies; default kind networking does not enforce them.
+
 ## Run
 
 From the repository root:
