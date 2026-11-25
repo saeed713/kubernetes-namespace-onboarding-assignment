@@ -69,4 +69,4 @@ Prioritized improvements:
 
 ## AI usage
 
-ChatGPT was used for implementation planning, shell commands, troubleshooting and review of test results. Implementation and validation decisions were reviewed during the exercise; commands and changes were executed and checked against the Kubernetes cluster.
+ChatGPT was used for technical guidance, troubleshooting, reviewing implementation choices, and helping write the documentation. I reviewed the suggestions, made the implementation changes, and tested the solution on a Kubernetes cluster.
