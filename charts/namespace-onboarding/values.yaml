@@ -1,0 +1,18 @@
+team:
+  name: team-a
+  group: team-a
+  owner: platform-team
+
+resources:
+  quota:
+    requestsCpu: "2"
+    requestsMemory: 2Gi
+    limitsCpu: "4"
+    limitsMemory: 4Gi
+    pods: "20"
+
+  defaults:
+    requestsCpu: 100m
+    requestsMemory: 128Mi
+    limitsCpu: 500m
+    limitsMemory: 512Mi
